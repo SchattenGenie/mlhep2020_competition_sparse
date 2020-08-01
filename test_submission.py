@@ -8,7 +8,7 @@ from sparse_model import SparseNet
 from sparse_vd import LinearSVDO
 device = torch.device('cpu')
 
-baseline_neurons = 50000
+baseline_neurons = 10000
 label_class_correspondence = {'Electron': 0, 'Ghost': 1, 'Kaon': 2, 'Muon': 3, 'Pion': 4, 'Proton': 5}
 class_label_correspondence = {0: 'Electron', 1: 'Ghost', 2: 'Kaon', 3: 'Muon', 4: 'Pion', 5: 'Proton'}
 
